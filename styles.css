@@ -1,2 +1,14 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -0.5rem; /* negative margin to compensate for space between items */
+}
+
+.holder .item {
+    flex: 1; /* take up equal space */
+    margin: 0 0.5rem; /* add space between items */
+}
